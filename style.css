@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color: #f0f0f0;
+    
+   
+}
+.container {
+    width: 600px;
+    height: 300px;
+    background-color: #FF9900; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+.card{
+    background: #ffff;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px;
+    
+}
+
+.card .card-info{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+.card .card-info .card-content{
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+.card-weather{
+    margin-left: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.card .card-weather .card-weather-icon{
+    animation: move 1s infinite alternate ease-in-out;
+}
+.card .card-weather .card-weather-desc{
+    font-size: 16px;
+}
+.card-weather-temp {
+    font-size: 16px;
+    color: #0d0404;
+    margin:5px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: rgb(97, 189, 6);
+    
+   
+}
